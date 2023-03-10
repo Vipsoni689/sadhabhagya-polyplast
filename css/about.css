@@ -30,6 +30,10 @@
     align-items: center;
     padding: 2px 50px;
 }
+.navbar .logo a{
+    display: grid;
+    place-items: center;
+}
 
 .navbar .logo .logo1 {
     height: 60px;
