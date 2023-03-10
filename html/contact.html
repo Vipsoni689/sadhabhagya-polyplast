@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>contact</title>
+
+</head>
+
+<body>
+
+
+    <!-- ===============================NAVBAR===================================== -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="../images/logo.png" alt="" class="logo1">
+            <img src="../images/logo2.png" alt="" class="logo2">
+        </div>
+        <ul>
+            <a href="../index.html" class="nav_list">home</a>
+            <a href="../html/about.html" class="nav_list">about</a>
+            <a href="../html/product.html" class="nav_list">product</a>
+            <a href="../html/contact.html" class="nav_list">contact</a>
+
+            <li class="icon" onclick="toggle1()"><span class="material-symbols-outlined">
+                        menu
+                    </span></li>
+        </ul>
+    </div>
+
+
+      <!-- ====================================one============================================= -->
+    <div class="one" id="one">
+       <div class="box">
+        <h1>contact us</h1>
+        <ul>
+            <a href="../index.html">home <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+            <a href="../html/contact.html" style="color:#EC6A23;font-weight: 700;">contact</a>
+        </ul>
+       </div>
+    </div>
+
+
+      <!-- ====================================two============================================= -->
+    <div class="two">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29918.291637035505!2d72.80798293909385!3d20.391692781092413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0da75935e4811%3A0x6339b54f4106b826!2sDaman%2C%20Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu!5e0!3m2!1sen!2sin!4v1678189777192!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right">
+            <div class="img">
+                <img src="../images/care3.png" alt="">
+                <h1>LLPIN NO AAZ 1550</h1>
+            </div>
+            <div class="box">
+                <div class="left"><i class="fa fa-home" aria-hidden="true"></i></div>
+                <div class="right">
+                    <h2>Factory Address :</h2>
+                    <p>Gala No G5, Laxmi Industrial Estate, Sur No. 57/1 (11A),
+                        Bhenslore, Dhunetha,Nani Daman 396210. UT </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="right">
+                    <h2>contact:</h2>
+                    <p><a href="tel:+91 9004009361">+91 9004009361 </a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                <div class="right">
+                    <h2>email:</h2>
+                    <p><a href="mailto:sadhbhagyallp@gmail.com">sadhbhagyallp@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================================footer============================================ -->
+    <footer>
+        <div class="follow">
+            <h1>follow us</h1>
+            <ul>
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </ul>
+            <div class="img_foot">
+                <img src="../images/logo.png" alt="">
+                <img src="../images/logo2.png" alt="">
+            </div>
+        </div>
+
+        <div class="contactus">
+            <h1>contact us</h1>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>Gala No G5, Laxmi Industrial Estate, Sur No. 57/1
+                (11A),<br>
+                Bhenslore, Dhunetha,Nani Daman 396210. UT </p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+91 9004009361">+91 9004009361 </a> </p>
+            <p><i class="fa fa-envelope-o" aria-hidden="true"></i><a
+                    href="mailto:sadhbhagyallp@gmail.com">sadhbhagyallp@gmail.com</a>
+            </p>
+        </div>
+        <div class="copy">
+            <h1>Certification</h1>
+            <img src="../images/reach.png" alt="">
+            <img src="../images/fdaa.png" alt="">
+            <img src="../images/roh.png" alt="">
+        </div>
+
+
+
+
+
+        <div class="top">
+            <a href="#one"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- ===================================copyright================================ -->
+    <div class="copyright">
+        <p>copyright @2023 <span>SADHBHAGYA POLYPLAST LLP</span> All rights reserverd.</p>
+    </div>
+
+
+
+
+    <!-- ===================================script==================================     -->
+    <script>
+        function toggle1() {
+            var nav = document.getElementsByClassName("navbar");
+            for (var i = 0; i < nav.length; i++) {
+                nav[i].classList.toggle("active");
+            }
+        }
+    </script>
+</body>
+
+</html>
