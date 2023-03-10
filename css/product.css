@@ -397,6 +397,9 @@
     margin: 0;
     width: auto;
 }
+.two .product .data{
+    width: auto;
+}
 
 .two .product .main_box{
    margin-top: 20px;
